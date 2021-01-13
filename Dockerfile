@@ -3,7 +3,7 @@ FROM ghcr.io/pankgeorg/jupyter-pluto:latest
 USER ${NB_USER}
 
 # Dralbase
-RUN julia -e "import Pkg; Pkg.rm(\"Pluto\"); Pkg.add(url=\"https://github.com/fonsp/Pluto.jl\", rev=\"c3e4b0f8-55cb-11ea-2926-15256bba5781\");"
+RUN julia -e "import Pkg; Pkg.rm(\"Pluto\"); Pkg.add(url=\"https://github.com/fonsp/Pluto.jl\", rev=\"binder-static-to-live-1\");"
 
 COPY --chown=${NB_USER}:users ./Manifest.toml ./Manifest.toml
 COPY --chown=${NB_USER}:users ./Project.toml ./Project.toml
