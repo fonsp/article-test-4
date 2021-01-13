@@ -1,1 +1,1 @@
-FROM ghcr.io/fonsp/article-test-4@sha256:a29650bc3b3cb0ed3c1c8a1372ea1c68f8619b5dd96cbc17f87f7286941f87a1
+FROM ghcr.io/fonsp/article-test-4@sha256:c0ff44d9ec692d85419a51e24704eca84993169fca41d7f79428f7cb65d1fba0
